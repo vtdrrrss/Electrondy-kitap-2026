@@ -1,6 +1,6 @@
 function showDocuments(section) {
     let documents = {
-        info: [
+        intro: [
             { name: 'Кіріспе 1', file: 'files/info1.pdf' },
             { name: 'Кіріспе 2', file: 'files/info2.pdf' }
         ],
@@ -86,3 +86,4 @@ function openDocument(file) {
     iframe.src = file;
 
 }
+
