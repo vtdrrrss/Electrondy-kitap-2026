@@ -1,6 +1,6 @@
 function showDocuments(section) {
     let documents = {
-        intro: [
+        info: [
             { name: 'Кіріспе 1', file: 'files/info1.pdf' },
             { name: 'Кіріспе 2', file: 'files/info2.pdf' }
         ],
@@ -84,4 +84,5 @@ function openDocument(file) {
 function openDocument(file) {
     let iframe = document.getElementById("wordViewer");
     iframe.src = file;
+
 }
